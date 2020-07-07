@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="REGIONS" directorySegmentName="seg_0" id="8CA8FDDC-37A0-67A4-53B5-B25F80B7BB82">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<schemaObject>6E7411F9-81A9-323E-5AA1-EF0CD20F3675</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>457AB5B7-E5B2-6BCD-85D4-512F1E14958F</segment>
+<tableSpace>78A33AC8-73A0-19FA-3432-0275EB020BD4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="REGION_NAME" id="752369A5-F519-D9F4-4BF0-A8C13036AD3E">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGION_ID" id="BA978523-2C96-C009-FE83-9BF0747ACEAC">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REG_ID_PK" id="01D6B610-5E0A-7EC0-4B61-A9AE2E26B1F1">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:24 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<schemaObject>6E7411F9-81A9-323E-5AA1-EF0CD20F3675</schemaObject>
+<segment>2EC25BEE-5C6E-7B03-ED3D-8AF5804D5BF8</segment>
+<tableSpace>78A33AC8-73A0-19FA-3432-0275EB020BD4</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REG_ID_PK" id="F075BBD4-5015-0936-E6DA-552A8A7C9C89">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:25 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<segment>2EC25BEE-5C6E-7B03-ED3D-8AF5804D5BF8</segment>
+<tableSpace>78A33AC8-73A0-19FA-3432-0275EB020BD4</tableSpace>
+<existingIndex>01D6B610-5E0A-7EC0-4B61-A9AE2E26B1F1</existingIndex>
+<indexSegment>2EC25BEE-5C6E-7B03-ED3D-8AF5804D5BF8</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

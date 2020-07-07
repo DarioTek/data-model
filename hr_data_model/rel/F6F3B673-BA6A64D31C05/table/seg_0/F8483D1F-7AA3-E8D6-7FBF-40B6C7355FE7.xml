@@ -1,0 +1,343 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8483D1F-7AA3-E8D6-7FBF-40B6C7355FE7" schemaObject="6E7411F9-81A9-323E-5AA1-EF0CD20F3675" name="EMPLOYEES">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>EMPLOYEES</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<commentInRDBMS>employees table. Contains 107 rows. References with departments,&lt;br/&gt;jobs, job_history tables. Contains a self reference.</commentInRDBMS>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPLOYEE_ID" id="73453C54-CA7A-642E-ED12-EF555D60D787">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMPLOYEE_ID</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<commentInRDBMS>Primary key of employees table.</commentInRDBMS>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIRST_NAME" id="8C6C1CA5-7DF7-B8DC-F520-8C461F4491B2">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>FIRST_NAME</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<commentInRDBMS>First name of the employee. A not null column.</commentInRDBMS>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LAST_NAME" id="013268D5-0A23-C14A-24A7-02D5E8DCEBAD">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>LAST_NAME</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<commentInRDBMS>Last name of the employee. A not null column.</commentInRDBMS>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>EMP_LAST_NAME_NN</notNullConstraintName>
+</Column>
+<Column name="EMAIL" id="E80FFF15-5321-5B70-2A09-159CC62372F1">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<commentInRDBMS>Email id of the employee</commentInRDBMS>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 BYTE</dataTypeSize>
+<ownDataTypeParameters>25 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>EMP_EMAIL_NN</notNullConstraintName>
+</Column>
+<Column name="PHONE_NUMBER" id="8553F176-A17D-2573-E3B2-BD5C8EBFA796">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>PHONE_NUMBER</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<commentInRDBMS>Phone number of the employee; includes country code and area code</commentInRDBMS>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIRE_DATE" id="1E0B3F01-ABDD-9BCB-443A-D026F50118D1">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>HIRE_DATE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<commentInRDBMS>Date when the employee started on this job. A not null column.</commentInRDBMS>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>EMP_HIRE_DATE_NN</notNullConstraintName>
+</Column>
+<Column name="JOB_ID" id="83B1002F-EC1A-D450-A571-D67AAE426E1A">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>JOB_ID</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<commentInRDBMS>Current job of the employee; foreign key to job_id column of the&lt;br/&gt;jobs table. A not null column.</commentInRDBMS>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>EMP_JOB_NN</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="6333B599-5EDB-4B8F-E698-5D76A1D38564" referredColumn="A29941E1-DC26-C767-ADC9-748ECA53467F"/>
+</associations>
+</Column>
+<Column name="SALARY" id="0D4E0791-3590-F5F0-4697-10F49B15E568">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>SALARY</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<commentInRDBMS>Monthly salary of the employee. Must be greater&lt;br/&gt;than zero (enforced by constraint emp_salary_min)</commentInRDBMS>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<constraintName>EMP_SALARY_MIN</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="salary &gt; 0"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="salary &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMMISSION_PCT" id="D15B7207-4C26-FB96-03DE-7EB54422971D">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>COMMISSION_PCT</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<commentInRDBMS>Commission percentage of the employee; Only employees in sales&lt;br/&gt;department elgible for commission percentage</commentInRDBMS>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MANAGER_ID" id="4B8CDBBC-5DCD-9BCF-31D9-7BFB65363B31">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>MANAGER_ID</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<commentInRDBMS>Manager id of the employee; has same domain as manager_id in&lt;br/&gt;departments table. Foreign key to employee_id column of employees table.&lt;br/&gt;(useful for reflexive joins and CONNECT BY query)</commentInRDBMS>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9B65E08-D0B9-7C00-F823-37E7D9577052" referredColumn="73453C54-CA7A-642E-ED12-EF555D60D787"/>
+</associations>
+</Column>
+<Column name="DEPARTMENT_ID" id="CB60345A-9B60-A1B4-2721-5F81861215E9">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>EMPLOYEES</sourceObjSchema>
+<sourceObjName>DEPARTMENT_ID</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<commentInRDBMS>Department id where employee works; foreign key to department_id&lt;br/&gt;column of the departments table</commentInRDBMS>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="780D26E3-62F1-DE49-3C90-88E50D9BAAD9" referredColumn="3D257921-B4F0-49B3-DAA5-994067B0F18F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FD4611F-73A3-DFDC-B73C-9954FAD1E034" name="EMP_EMP_ID_PK">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>EMP_EMP_ID_PK</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:25 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73453C54-CA7A-642E-ED12-EF555D60D787"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="256C34D2-714B-C8E8-6FE0-14687F6064AD" name="EMP_EMAIL_UK">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>EMP_EMAIL_UK</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:25 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E80FFF15-5321-5B70-2A09-159CC62372F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3499250E-5D2A-ABC9-70E9-A63388C9CD43" schemaObject="6E7411F9-81A9-323E-5AA1-EF0CD20F3675" name="EMP_DEPARTMENT_IX">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>EMP_DEPARTMENT_IX</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:24 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB60345A-9B60-A1B4-2721-5F81861215E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="900DF311-2FD7-D2EB-EFB8-3DD0376BF0CB" schemaObject="6E7411F9-81A9-323E-5AA1-EF0CD20F3675" name="EMP_EMAIL_UK">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>EMP_EMAIL_UK</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:24 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E80FFF15-5321-5B70-2A09-159CC62372F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="96B3A7FD-0231-CDFF-2265-BBAE2AFC48D1" schemaObject="6E7411F9-81A9-323E-5AA1-EF0CD20F3675" name="EMP_EMP_ID_PK">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>EMP_EMP_ID_PK</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:24 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73453C54-CA7A-642E-ED12-EF555D60D787"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E2B449B-AD59-6EB5-395D-8508676A1D7B" schemaObject="6E7411F9-81A9-323E-5AA1-EF0CD20F3675" name="EMP_JOB_IX">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>EMP_JOB_IX</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:24 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83B1002F-EC1A-D450-A571-D67AAE426E1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E33C95C0-E81B-0F96-E7FA-ACDB00DBBC05" schemaObject="6E7411F9-81A9-323E-5AA1-EF0CD20F3675" name="EMP_MANAGER_IX">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>EMP_MANAGER_IX</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:24 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B8CDBBC-5DCD-9BCF-31D9-7BFB65363B31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="42D8F9D3-1B26-0944-1A45-AAE052E0B84E" schemaObject="6E7411F9-81A9-323E-5AA1-EF0CD20F3675" name="EMP_NAME_IX">
+<sourceConnName>hr</sourceConnName>
+<sourceObjSchema>HR</sourceObjSchema>
+<sourceObjName>EMP_NAME_IX</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:24 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="013268D5-0A23-C14A-24A7-02D5E8DCEBAD"/>
+<colUsage columnID="8C6C1CA5-7DF7-B8DC-F520-8C461F4491B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D50E06F5-61AA-924E-D5A1-76D627E4A428" name="EMP_DEPT_FK">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:26 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB60345A-9B60-A1B4-2721-5F81861215E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="48C727CE-3DC9-074C-F95D-ECD8BCE9416D" name="EMP_JOB_FK">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:26 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83B1002F-EC1A-D450-A571-D67AAE426E1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D3E309E-6462-CF5C-22E9-20222991F9A9" name="EMP_MANAGER_FK">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:26 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B8CDBBC-5DCD-9BCF-31D9-7BFB65363B31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

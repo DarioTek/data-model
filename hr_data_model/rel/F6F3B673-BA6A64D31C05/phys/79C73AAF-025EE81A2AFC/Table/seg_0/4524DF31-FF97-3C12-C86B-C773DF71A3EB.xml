@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEPENDENTS" directorySegmentName="seg_0" id="4524DF31-FF97-3C12-C86B-C773DF71A3EB">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<schemaObject>6E7411F9-81A9-323E-5AA1-EF0CD20F3675</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>457AB5B7-E5B2-6BCD-85D4-512F1E14958F</segment>
+<tableSpace>78A33AC8-73A0-19FA-3432-0275EB020BD4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="LAST_NAME" id="030787DA-1AB8-E097-E5C8-8C06252321F9">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RELATION" id="2555446C-6F0F-386A-0E93-032B425704C7">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="4E620222-6057-090D-2665-0F2B00EC641D">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BIRTH_DATE" id="6F8C293B-8C93-6303-3123-42EAE3617850">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIRST_NAME" id="71B8B086-6DE8-E376-3469-AD7840AD8998">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RELATIVE_ID" id="BF1030D2-040D-35C9-593C-77ACB88175B6">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:23 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPENDENTS_PK" id="1A0C7D81-A095-7BC8-7AB8-F740380E012C">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:24 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<schemaObject>6E7411F9-81A9-323E-5AA1-EF0CD20F3675</schemaObject>
+<segment>2EC25BEE-5C6E-7B03-ED3D-8AF5804D5BF8</segment>
+<tableSpace>78A33AC8-73A0-19FA-3432-0275EB020BD4</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEPENDENTS_FK1" id="0E8E5DD3-A245-1A3D-861E-77F3999C89EC">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:26 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPENDENTS_PK" id="2196D578-7A57-83D2-FDBE-768D0E226DC6">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:13:25 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<segment>2EC25BEE-5C6E-7B03-ED3D-8AF5804D5BF8</segment>
+<tableSpace>78A33AC8-73A0-19FA-3432-0275EB020BD4</tableSpace>
+<existingIndex>1A0C7D81-A095-7BC8-7AB8-F740380E012C</existingIndex>
+<indexSegment>2EC25BEE-5C6E-7B03-ED3D-8AF5804D5BF8</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

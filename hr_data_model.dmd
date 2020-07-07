@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="hr_data_model" id="EB6FCC85-0E53-8312-CE6A-4E832CC96271" version="3.5">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-07 17:09:56 UTC</createdTime>
+<ownerDesignName>hr_data_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EB6FCC85-0E53-8312-CE6A-4E832CC96271</designId>
+</OSDM_Design>

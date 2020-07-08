@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A27F7B91-5CBF-1F72-6D71-CD8DB6B9B698" name="TRADING_INVESTING.LOAD_HISTORICAL_PRICES">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 20:06:34 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<ordsAlias>historical_prices</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RECORD_DATE" id="7191CEB7-95CD-F43F-EA92-131D0D9B8FE4">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 20:06:34 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPEN_PRICE" id="B0832845-86D0-2526-0CEC-0AEFF0C4074D">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 20:06:34 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLOSE_PRICE" id="68DA91AA-D45F-47C3-D2D8-492961B3AAC9">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 20:06:34 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIGH_PRICE" id="D33CB902-287B-0EB5-D60A-63428834646E">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 20:06:34 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOW_PRICE" id="3C187B12-3B03-7FE1-AB09-D249E8C9BEB8">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 20:06:34 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADJUSTED_CLOSE_PRICE" id="7FE7A74D-8120-EEB1-9814-0C4C2821D2DA">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 20:06:34 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOLUME" id="E9483D76-D292-9133-589D-B5138A96A5F0">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 20:06:34 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

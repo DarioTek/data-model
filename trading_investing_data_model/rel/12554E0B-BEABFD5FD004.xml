@@ -5,11 +5,19 @@
 <ownerDesignName>trading_investing_data_model</ownerDesignName>
 <shouldBeOpen>false</shouldBeOpen>
 <selectedRDBMSSite>79C73AAF-E1A7-E669-7DF0-025EE81A2AFC</selectedRDBMSSite>
+<redirectConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>trading_investing</connName>
+<connUser>trading_investing</connUser>
+<connType>1</connType>
+<syncSelected>-1</syncSelected>
+</redirectConnectionStamp>
+<useConnectionUser>true</useConnectionUser>
 <importConnectionStamps>
 <importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
 <connName>trading_investing</connName>
 <connUser>trading_investing</connUser>
 <connType>1</connType>
+<syncSelected>1</syncSelected>
 </importConnectionStamp>
 </importConnectionStamps>
 </relationalModel>

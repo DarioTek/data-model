@@ -20,11 +20,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50 BYTE</dataTypeSize>
-<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SYMBOL" id="914A1719-40AC-9AB5-4784-10DC94D00DC1">
+<Column name="TICKER_SYMBOL" id="914A1719-40AC-9AB5-4784-10DC94D00DC1">
 <sourceConnName>trading_investing</sourceConnName>
 <sourceObjSchema>WATCH_LIST</sourceObjSchema>
 <sourceObjName>SYMBOL</sourceObjName>
@@ -34,23 +34,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 BYTE</dataTypeSize>
-<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
-<autoIncrementCycle>false</autoIncrementCycle>
-</Column>
-<Column name="SECTOR" id="EDA0C5BA-9C0A-98E1-DFD9-6C4D87EBF6F7">
-<sourceConnName>trading_investing</sourceConnName>
-<sourceObjSchema>WATCH_LIST</sourceObjSchema>
-<sourceObjName>SECTOR</sourceObjName>
-<createdBy>dmont</createdBy>
-<createdTime>2020-07-08 18:57:53 UTC</createdTime>
-<ownerDesignName>trading_investing_data_model</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30 BYTE</dataTypeSize>
-<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 </columns>

@@ -18,12 +18,7 @@
 <createdTime>2020-07-08 18:57:53 UTC</createdTime>
 <ownerDesignName>trading_investing_data_model</ownerDesignName>
 </ColumnProxy>
-<ColumnProxy name="SYMBOL" id="914A1719-40AC-9AB5-4784-10DC94D00DC1">
-<createdBy>dmont</createdBy>
-<createdTime>2020-07-08 18:57:53 UTC</createdTime>
-<ownerDesignName>trading_investing_data_model</ownerDesignName>
-</ColumnProxy>
-<ColumnProxy name="SECTOR" id="EDA0C5BA-9C0A-98E1-DFD9-6C4D87EBF6F7">
+<ColumnProxy name="TICKER_SYMBOL" id="914A1719-40AC-9AB5-4784-10DC94D00DC1">
 <createdBy>dmont</createdBy>
 <createdTime>2020-07-08 18:57:53 UTC</createdTime>
 <ownerDesignName>trading_investing_data_model</ownerDesignName>

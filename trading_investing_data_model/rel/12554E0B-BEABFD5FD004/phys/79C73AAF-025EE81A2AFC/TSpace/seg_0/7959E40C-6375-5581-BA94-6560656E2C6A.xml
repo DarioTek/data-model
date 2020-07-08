@@ -6,6 +6,26 @@
 <createdBy>dmont</createdBy>
 <createdTime>2020-07-08 18:57:52 UTC</createdTime>
 <ownerDesignName>trading_investing_data_model</ownerDesignName>
+<dsInitialExtent>65536</dsInitialExtent>
+<dsMaxExtents>2147483645</dsMaxExtents>
 <emUniformSize>0</emUniformSize>
 <extentManagement>LOCAL</extentManagement>
+<minExtLen>65536</minExtLen>
+<dsCompression>NOCOMPRESS</dsCompression>
+<encrypt>NO</encrypt>
+<fileType>SMALLFILE</fileType>
+<inMemory>NO</inMemory>
+<dataFiles>
+<DataFile class="oracle.dbtools.crest.model.design.storage.oracle.v10g.DataFileOraclev10g" name="USERS01.DBF" id="61B83F09-837B-B224-F6F7-10D7FB680F62">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjName>C:\APP\DMONT\PRODUCT\18.0.0\ORADATA\XE\USERS01.DBF</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 19:07:01 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<autoextend>ON</autoextend>
+<fileName>C:\APP\DMONT\PRODUCT\18.0.0\ORADATA\XE\USERS01.DBF</fileName>
+<nextBlockSize>1280</nextBlockSize>
+<size>5120</size>
+</DataFile>
+</dataFiles>
 </TableSpaceOraclev10g>

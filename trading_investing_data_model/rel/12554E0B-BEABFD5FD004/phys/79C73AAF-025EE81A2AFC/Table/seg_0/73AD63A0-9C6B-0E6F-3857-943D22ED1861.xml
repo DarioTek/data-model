@@ -1,0 +1,40 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="WATCH_LIST" directorySegmentName="seg_0" id="73AD63A0-9C6B-0E6F-3857-943D22ED1861">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 18:57:52 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<schemaObject>7E1E2635-689B-19F8-1E07-384854858985</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>BB5B3160-0FC9-2369-B687-85DB9944D658</segment>
+<tableSpace>7959E40C-6375-5581-BA94-6560656E2C6A</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="WATCH_LIST_NAME" id="6565036C-EEDD-AFFC-1027-BE3670A424DE">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 18:57:53 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TICKER_SYMBOL" id="914A1719-40AC-9AB5-4784-10DC94D00DC1">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 18:57:53 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="WATCH_LIST_PK" id="115999B4-6DD3-D8E2-277C-2043F892037C">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 18:57:53 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<schemaObject>7E1E2635-689B-19F8-1E07-384854858985</schemaObject>
+<segment>CB149CC4-F76C-E331-C4BA-7D054164BFC9</segment>
+<tableSpace>7959E40C-6375-5581-BA94-6560656E2C6A</tableSpace>
+<indexSegment>CB149CC4-F76C-E331-C4BA-7D054164BFC9</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

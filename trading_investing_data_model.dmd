@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="trading_investing_data_model" id="9CBCB3FC-E54A-3688-F2A4-53B73E84A061" version="3.5">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 18:55:10 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9CBCB3FC-E54A-3688-F2A4-53B73E84A061</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="763DD4EB-2589-288A-655A-7B6B12146A7B">
+<designStoragePath>C:\Users\dmont\git\data-model</designStoragePath>
+</designDescr>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="6682F681-79A9-BDD5-1ECE-764E4A2421AC">
+<designStoragePath>C:\Users\dmont\git\data-model</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

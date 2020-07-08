@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="trading_investing_data_model" id="9CBCB3FC-E54A-3688-F2A4-53B73E84A061" version="3.5">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 18:55:10 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9CBCB3FC-E54A-3688-F2A4-53B73E84A061</designId>
+</OSDM_Design>

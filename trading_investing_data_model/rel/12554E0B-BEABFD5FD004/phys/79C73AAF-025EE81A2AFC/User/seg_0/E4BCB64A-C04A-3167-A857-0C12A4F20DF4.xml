@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="TRADING_INVESTING" directorySegmentName="seg_0" id="E4BCB64A-C04A-3167-A857-0C12A4F20DF4">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjName>TRADING_INVESTING</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 18:57:51 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<schemaObject>7E1E2635-689B-19F8-1E07-384854858985</schemaObject>
+</UserOraclev10g>

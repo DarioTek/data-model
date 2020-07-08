@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SchemaObject class="oracle.dbtools.crest.model.design.relational.SchemaObject" name="TRADING_INVESTING" directorySegmentName="seg_0" id="7E1E2635-689B-19F8-1E07-384854858985">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-08 18:57:52 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+</SchemaObject>

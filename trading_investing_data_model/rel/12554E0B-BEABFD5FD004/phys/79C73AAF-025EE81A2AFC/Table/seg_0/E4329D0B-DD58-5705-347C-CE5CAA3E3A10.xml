@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="TRADING_INVESTING.STOCK_MASTER_LIST" directorySegmentName="seg_0" id="E4329D0B-DD58-5705-347C-CE5CAA3E3A10">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:25:11 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SECTOR" id="468E3223-6141-1EFD-55C9-5D5C9ED427D9">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:28:40 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SECURITY_NAME" id="9A832C52-67C0-3CAD-D784-91D4BB6AA534">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:28:40 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SYMBOL" id="DB9ABA0E-541E-B56B-5FBF-9C88ACB66431">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:28:40 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INDUSTRY" id="F56601B8-23A7-4FED-A7A9-66EF348F5361">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:28:40 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TRADING_INVESTING.STOCK_MASTER_LIST_PK" id="489793DF-082C-0EE7-5C89-BA5C9A7D7637">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:28:40 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -24,7 +24,7 @@
 <ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="TICKER_SYMBOL" id="914A1719-40AC-9AB5-4784-10DC94D00DC1">
+<Column name="SYMBOL" id="914A1719-40AC-9AB5-4784-10DC94D00DC1">
 <sourceConnName>trading_investing</sourceConnName>
 <sourceObjSchema>WATCH_LIST</sourceObjSchema>
 <sourceObjName>SYMBOL</sourceObjName>

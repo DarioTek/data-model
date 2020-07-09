@@ -20,11 +20,19 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="991BCB5C-9DD2-FFC7-1A31-B9FC10EBA6B0" otype="Table" vid="3856F2E6-157F-1A00-871E-58539BD6F5B6">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="573" y="228" width="413" height="181"/>
+<bounds x="634" y="195" width="413" height="181"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="A27F7B91-5CBF-1F72-6D71-CD8DB6B9B698" otype="Table" vid="FE79CCEC-57A9-0A31-7BF1-2E0D3D308785">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="42" y="245" width="413" height="139"/>
+<bounds x="634" y="11" width="413" height="139"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="DC274697-8B8A-D6B6-B5B7-7D5877FDBF51" otype="Table" vid="80450274-E37D-29D3-376F-7B88C7717A92">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="20" y="155" width="528" height="401"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="E4329D0B-DD58-5705-347C-CE5CAA3E3A10" otype="Table" vid="B096EBF6-525B-1ABB-4C55-D3C71A3F5272">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="634" y="431" width="336" height="110"/>
 </OView>
 </objectViews>
 </Diagram>

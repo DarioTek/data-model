@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4329D0B-DD58-5705-347C-CE5CAA3E3A10" name="TRADING_INVESTING.STOCK_MASTER_LIST">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:25:11 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SYMBOL" id="DB9ABA0E-541E-B56B-5FBF-9C88ACB66431">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:28:40 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECURITY_NAME" id="9A832C52-67C0-3CAD-D784-91D4BB6AA534">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:28:40 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECTOR" id="468E3223-6141-1EFD-55C9-5D5C9ED427D9">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:28:40 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INDUSTRY" id="F56601B8-23A7-4FED-A7A9-66EF348F5361">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:28:40 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="489793DF-082C-0EE7-5C89-BA5C9A7D7637" name="TRADING_INVESTING.STOCK_MASTER_LIST_PK">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:28:40 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB9ABA0E-541E-B56B-5FBF-9C88ACB66431"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

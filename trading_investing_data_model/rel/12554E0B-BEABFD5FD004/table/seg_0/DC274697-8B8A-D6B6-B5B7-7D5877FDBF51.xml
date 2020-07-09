@@ -1,0 +1,336 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC274697-8B8A-D6B6-B5B7-7D5877FDBF51" name="TRADING_INVESTING.YAHOO_FINANCE_QUOTE_SUMMARY">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:01:53 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RECORD_DATETIME" id="595EE086-AA13-7357-84F9-3F27622B6636">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:21:46 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYMBOL" id="116B7CBF-6031-1AD0-72A7-2EA0B17E0795">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIVE_PRICE" id="2AC01999-A131-2903-3DDD-0C82E66D2FB4">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREVIOUS_CLOSING_PRICE" id="3E3A41CC-8393-DA1E-0BB3-F8D1450415D8">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPENING_PRICE" id="27C9AEB1-D477-B2CA-D3E8-391EE5E00B14">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BID_OFFER_PRICE" id="220E9CBF-847F-2457-7284-D693F7108851">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BID_OFFER_QUANTITY" id="9EAB4BD8-E131-72F8-C586-B37FE8C59C00">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<ownDataTypeParameters>,21,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASKING_PRICE" id="C0992995-A39B-8BBD-1FD6-F091B6F6A748">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASKING_QUANTITY" id="8BF1F35B-E83B-F177-BDDD-B3A29F2A2DA5">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<ownDataTypeParameters>,21,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_RANGE_LOW_PRICE" id="F19CD48C-F967-BAD7-F441-3E68CA24543D">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_RANGE_HIGH_PRICE" id="77A95FA9-2E26-5548-168D-7727D79FF1AD">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIFTY_TWO_WEEK_RANGE_LOW_PRICE" id="49E3F915-34FB-35CF-792F-F6371A62F660">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIFTY_TWO_WEEK_RANGE_HIGH_PRICE" id="7C00BED6-CC5E-FA34-AD2D-F17A55AD1027">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOLUME" id="61DE153A-D8CF-BF41-EC4C-F40D7656892E">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<ownDataTypeParameters>,21,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVERAGE_VOLUME" id="332BED70-37D4-1EE9-32C4-BAF1718701BC">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<ownDataTypeParameters>,21,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARKET_CAPITALIZATION" id="9C507D63-3AC5-8C0B-FAFF-FC515A1F60B7">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>31</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,31,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BETA" id="052D042A-0677-88C8-5579-A8406FE7242A">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PE_RATIO_TTM" id="A55EC3CF-01C6-143B-E742-7FD1F232C5B2">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EPS_TTM" id="E86C2A73-4116-0E60-8FBF-48B158D747A1">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EARNINGS_DATE" id="C6B4B268-643D-EE2D-F81C-0A41B3AB667A">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EARNINGS_DATE_END" id="DED785FD-C6B9-799F-E8B0-CF52D02BB972">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIVIDEND" id="0637CB35-BAFE-198B-0AB9-A66291B5B4CA">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIVIDEND_YIELD" id="94B04D34-0172-489D-78C0-04585E42713E">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EX_DIVIDEND_DATE" id="8A2C091C-A064-A5CF-B1ED-804D511DD588">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ONE_YEAR_TARGET_PRICE" id="42F70030-8F39-B255-6837-F4320FFB06BB">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:20:08 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6A8C9ED-3538-62EC-C645-D9A9E9880813" name="TRADING_INVESTING.YAHOO_FINANCE_QUOTE_SUMMARY_PK">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-09 10:22:15 UTC</createdTime>
+<ownerDesignName>trading_investing_data_model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="595EE086-AA13-7357-84F9-3F27622B6636"/>
+<colUsage columnID="116B7CBF-6031-1AD0-72A7-2EA0B17E0795"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CCB21386-2CB1-CA0C-88F4-9B1CDB9DD448" schemaObject="01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB" name="WATCH_LIST">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>TRADING_INVESTING</sourceObjSchema>
+<sourceObjName>WATCH_LIST</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="WATCH_LIST_NAME" id="911D34D3-07A3-D4EF-5E31-33BB87CDE1EA">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>WATCH_LIST</sourceObjSchema>
+<sourceObjName>WATCH_LIST_NAME</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TICKER_SYMBOL" id="53A3D7AC-B389-07B4-547A-0E7D018B792E">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>WATCH_LIST</sourceObjSchema>
+<sourceObjName>TICKER_SYMBOL</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD9E85BA-7432-3903-97B7-5F50902C83AD" name="WATCH_LIST_PK">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>TRADING_INVESTING</sourceObjSchema>
+<sourceObjName>WATCH_LIST_PK</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:49 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="911D34D3-07A3-D4EF-5E31-33BB87CDE1EA"/>
+<colUsage columnID="53A3D7AC-B389-07B4-547A-0E7D018B792E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA804ABF-E34D-0764-F14B-60E81E05F116" schemaObject="01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB" name="WATCH_LIST_PK">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>TRADING_INVESTING</sourceObjSchema>
+<sourceObjName>WATCH_LIST_PK</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:48 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="911D34D3-07A3-D4EF-5E31-33BB87CDE1EA"/>
+<colUsage columnID="53A3D7AC-B389-07B4-547A-0E7D018B792E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="trading_investing_reverse_engineer" id="FBAE57D1-90F9-D72F-8463-7B92C9F3146B" version="3.5">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:41:32 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FBAE57D1-90F9-D72F-8463-7B92C9F3146B</designId>
+</OSDM_Design>

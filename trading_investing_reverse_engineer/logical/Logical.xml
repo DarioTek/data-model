@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="BCFC45D8-AF70-3770-C0BE-84A6BCA9418F" mainViewID="89A1651D-3E85-6A01-94BD-6E833A837DB9">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:41:33 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,438 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="72230B94-1BDE-C960-A274-F3A1DE938F3B" schemaObject="01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB" name="YAHOO_FINANCE_QUOTE_SUMMARY">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>TRADING_INVESTING</sourceObjSchema>
+<sourceObjName>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RECORD_DATETIME" id="AD427DFA-BF41-CC8E-BFFB-DE6C87262BE4">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>RECORD_DATETIME</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SYMBOL" id="8B10059F-BA67-0281-0C9C-5FFF48D9BFC3">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>SYMBOL</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LIVE_PRICE" id="46CA1298-989C-1549-2032-113EC0BC368B">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>LIVE_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREVIOUS_CLOSING_PRICE" id="BCCA6306-74C1-B02B-A4EB-B0FEAE55A848">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>PREVIOUS_CLOSING_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPENING_PRICE" id="3F93E691-A255-76F6-DFEB-02AF5EBB8CFA">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>OPENING_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BID_OFFER_PRICE" id="C3CA93D7-7A0B-BF44-EBE4-D64F8025DA21">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>BID_OFFER_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BID_OFFER_QUANTITY" id="9149764E-5062-72B2-57C6-79F9181491A7">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>BID_OFFER_QUANTITY</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,21,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASKING_PRICE" id="E514E5A0-65E3-BC74-07FC-B17E330931DF">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>ASKING_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ASKING_QUANTITY" id="A7F5A6E5-3D48-D98D-6CE7-F2F8F2C81141">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>ASKING_QUANTITY</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,21,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_RANGE_LOW_PRICE" id="FEA04523-6503-CEFF-B98F-EDDD633E44FC">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>DAYS_RANGE_LOW_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DAYS_RANGE_HIGH_PRICE" id="6222C5BE-F73C-7099-9510-4564AA72B310">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>DAYS_RANGE_HIGH_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIFTY_TWO_WEEK_RANGE_LOW_PRICE" id="12FA048D-A074-B346-4913-0C3BBD4B860D">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>FIFTY_TWO_WEEK_RANGE_LOW_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FIFTY_TWO_WEEK_RANGE_HIGH_PRICE" id="2DEC748A-E4C3-CB9B-BF00-460D39B63838">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>FIFTY_TWO_WEEK_RANGE_HIGH_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOLUME" id="15015B40-3090-FA4E-4D90-2BE0A7C2BC76">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>VOLUME</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,21,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AVERAGE_VOLUME" id="0202A22E-2D9E-503B-C802-9844451C0BF4">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>AVERAGE_VOLUME</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,21,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MARKET_CAPITALIZATION" id="B97E06C1-3D10-C896-D1AC-923FB713A321">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>MARKET_CAPITALIZATION</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>31</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,31,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BETA" id="42E918B8-3E34-2958-C89B-3002D81F4BB4">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>BETA</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PE_RATIO_TTM" id="7A231D17-266B-973F-1736-35777DFD8A1F">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>PE_RATIO_TTM</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EPS_TTM" id="1A80421E-695A-6EB1-0722-C5F9A7738A65">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>EPS_TTM</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EARNINGS_DATE" id="DA7FEFA0-A9ED-7E1F-26FD-D73B3B2F3D23">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>EARNINGS_DATE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EARNINGS_DATE_END" id="430C0683-EB43-C2A4-499A-5EA34A2713DB">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>EARNINGS_DATE_END</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIVIDEND" id="C38E266F-C59E-38FC-E152-43F96AA1037A">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>DIVIDEND</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIVIDEND_YIELD" id="1AB40D1E-E92F-B391-EBE9-66B889FBB408">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>DIVIDEND_YIELD</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EX_DIVIDEND_DATE" id="FE1BAB0B-E562-482D-2B9A-A7D9B96CBAC1">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>EX_DIVIDEND_DATE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ONE_YEAR_TARGET_PRICE" id="E593DC73-B863-661B-B855-C6BEB9BAA56E">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY</sourceObjSchema>
+<sourceObjName>ONE_YEAR_TARGET_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6BA0C97B-F9CC-670A-6EE6-891F2A6C35A6" name="YAHOO_FINANCE_QUOTE_SUMMARY_PK">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>TRADING_INVESTING</sourceObjSchema>
+<sourceObjName>YAHOO_FINANCE_QUOTE_SUMMARY_PK</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:49 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD427DFA-BF41-CC8E-BFFB-DE6C87262BE4"/>
+<colUsage columnID="8B10059F-BA67-0281-0C9C-5FFF48D9BFC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E558B72F-16CF-F4A0-6A4D-F2749DD5E864" schemaObject="01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB" name="YAHOO_FINANCE_QUOTE_SUMMARY_PK">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>TRADING_INVESTING</sourceObjSchema>
+<sourceObjName>YAHOO_FINANCE_QUOTE_SUMMARY_PK</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:48 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD427DFA-BF41-CC8E-BFFB-DE6C87262BE4"/>
+<colUsage columnID="8B10059F-BA67-0281-0C9C-5FFF48D9BFC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

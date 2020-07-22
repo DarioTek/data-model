@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="USERS" directorySegmentName="seg_0" id="F784E098-0C6F-A90D-BECC-18FBEB48A909">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>TRADING_INVESTING</sourceObjSchema>
+<sourceObjName>USERS</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

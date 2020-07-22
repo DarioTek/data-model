@@ -1,0 +1,404 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableView class="oracle.dbtools.crest.model.design.relational.TableView" directorySegmentName="seg_0" id="886DADE8-7B4E-2EC8-0DFE-BEEB19037904" schemaObject="01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB" name="YAHOO_FINANCE_QUOTE_SUMMARY_VIEW">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>TRADING_INVESTING</sourceObjSchema>
+<sourceObjName>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<userDefined>true</userDefined>
+<userDefinedSQL>CREATE OR REPLACE VIEW YAHOO_FINANCE_QUOTE_SUMMARY_VIEW&lt;br/&gt;AS &lt;br/&gt;SELECT&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.record_datetime,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.symbol,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.live_price,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.previous_closing_price,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.opening_price,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.bid_offer_price,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.bid_offer_quantity,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.asking_price,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.asking_quantity,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.days_range_low_price,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.days_range_high_price,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.fifty_two_week_range_low_price,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.fifty_two_week_range_high_price,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.volume,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.average_volume,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.market_capitalization,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.beta,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.pe_ratio_ttm,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.eps_ttm,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.earnings_date,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.earnings_date_end,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.dividend,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.dividend_yield,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.ex_dividend_date,&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.one_year_target_price,&lt;br/&gt;        (trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.one_year_target_price - trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.live_price)as one_year_potential_gain,&lt;br/&gt;        ((trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.one_year_target_price - trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.live_price)/trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.live_price)*100 as one_year_potential_gain_percentage&lt;br/&gt;    FROM&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY &lt;br/&gt;    WHERE&lt;br/&gt;        trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY.record_datetime in (SELECT max(record_datetime) FROM trading_investing.YAHOO_FINANCE_QUOTE_SUMMARY)</userDefinedSQL>
+<parsed>true</parsed>
+<viewElements>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="RECORD_DATETIME" id="DD348A58-9329-7AE0-9A9F-914CCDEC1F88">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>RECORD_DATETIME</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>RECORD_DATETIME</alias>
+<dataType>DATE</dataType>
+<headerAlias>RECORD_DATETIME</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="SYMBOL" id="EC11C128-C89B-7977-A710-6C384A00AF81">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>SYMBOL</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>SYMBOL</alias>
+<dataType>VARCHAR2 (30 CHAR)</dataType>
+<headerAlias>SYMBOL</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="LIVE_PRICE" id="DF2319E4-6F06-87C4-8BA8-494F46C6A211">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>LIVE_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>LIVE_PRICE</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>LIVE_PRICE</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PREVIOUS_CLOSING_PRICE" id="3BECAEF0-5A4D-DC6E-71CC-2D8D7922EDFE">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>PREVIOUS_CLOSING_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>PREVIOUS_CLOSING_PRICE</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>PREVIOUS_CLOSING_PRICE</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="OPENING_PRICE" id="FC247730-FFC7-BF9F-2A1A-30070C20DF1C">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>OPENING_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>OPENING_PRICE</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>OPENING_PRICE</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="BID_OFFER_PRICE" id="B4643240-8789-4AE6-E030-7EC8FED4C10D">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>BID_OFFER_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>BID_OFFER_PRICE</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>BID_OFFER_PRICE</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="BID_OFFER_QUANTITY" id="D04127DE-0CAA-C82D-9678-C52468FE39E3">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>BID_OFFER_QUANTITY</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>BID_OFFER_QUANTITY</alias>
+<dataType>NUMBER (21)</dataType>
+<headerAlias>BID_OFFER_QUANTITY</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ASKING_PRICE" id="07D71733-22C2-17EB-3FE6-1B8C17D4B2DE">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>ASKING_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>ASKING_PRICE</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>ASKING_PRICE</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ASKING_QUANTITY" id="2FD35597-2733-C708-F931-E3DB713940C1">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>ASKING_QUANTITY</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>ASKING_QUANTITY</alias>
+<dataType>NUMBER (21)</dataType>
+<headerAlias>ASKING_QUANTITY</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DAYS_RANGE_LOW_PRICE" id="2E8E174F-9CE9-F35C-30DB-72FD92F1E4A1">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>DAYS_RANGE_LOW_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>DAYS_RANGE_LOW_PRICE</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>DAYS_RANGE_LOW_PRICE</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DAYS_RANGE_HIGH_PRICE" id="F0E162C6-9AC9-205A-D5B1-177EB09EECD4">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>DAYS_RANGE_HIGH_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>DAYS_RANGE_HIGH_PRICE</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>DAYS_RANGE_HIGH_PRICE</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="FIFTY_TWO_WEEK_RANGE_LOW_PRICE" id="0C4D4D22-3291-FD76-78A2-6AC1E50D9C99">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>FIFTY_TWO_WEEK_RANGE_LOW_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>FIFTY_TWO_WEEK_RANGE_LOW_PRICE</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>FIFTY_TWO_WEEK_RANGE_LOW_PRICE</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="FIFTY_TWO_WEEK_RANGE_HIGH_PRICE" id="16890521-A0F3-4749-A946-0E886A07095D">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>FIFTY_TWO_WEEK_RANGE_HIGH_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>FIFTY_TWO_WEEK_RANGE_HIGH_PRICE</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>FIFTY_TWO_WEEK_RANGE_HIGH_PRICE</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="VOLUME" id="91FE826E-C53A-501E-CD58-9170A7824F27">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>VOLUME</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>VOLUME</alias>
+<dataType>NUMBER (21)</dataType>
+<headerAlias>VOLUME</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="AVERAGE_VOLUME" id="7539B85B-CE32-3214-4175-CAEC465D92C6">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>AVERAGE_VOLUME</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>AVERAGE_VOLUME</alias>
+<dataType>NUMBER (21)</dataType>
+<headerAlias>AVERAGE_VOLUME</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="MARKET_CAPITALIZATION" id="CB646E7C-2BBC-E90F-25C9-E2083225667A">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>MARKET_CAPITALIZATION</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>MARKET_CAPITALIZATION</alias>
+<dataType>NUMBER (31, 6)</dataType>
+<headerAlias>MARKET_CAPITALIZATION</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="BETA" id="17DDBB2F-DD37-D090-210C-EE70C795A0FF">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>BETA</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>BETA</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>BETA</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="PE_RATIO_TTM" id="1B783DFB-00A6-FF8E-4A98-78BB89EA408F">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>PE_RATIO_TTM</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>PE_RATIO_TTM</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>PE_RATIO_TTM</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EPS_TTM" id="09E24313-2C89-E65A-27A9-84711E5A1D20">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>EPS_TTM</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>EPS_TTM</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>EPS_TTM</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EARNINGS_DATE" id="D57293A2-A548-C048-7534-52477DF7DC24">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>EARNINGS_DATE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>EARNINGS_DATE</alias>
+<dataType>DATE</dataType>
+<headerAlias>EARNINGS_DATE</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EARNINGS_DATE_END" id="4C8B0D4C-934E-B376-1405-C611749573D9">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>EARNINGS_DATE_END</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>EARNINGS_DATE_END</alias>
+<dataType>DATE</dataType>
+<headerAlias>EARNINGS_DATE_END</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DIVIDEND" id="E83C8A52-E46A-6D82-7F99-F63AE0460313">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>DIVIDEND</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>DIVIDEND</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>DIVIDEND</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="DIVIDEND_YIELD" id="661F3D47-12AF-ABFA-2C17-439ECA5C00DE">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>DIVIDEND_YIELD</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>DIVIDEND_YIELD</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>DIVIDEND_YIELD</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="EX_DIVIDEND_DATE" id="713C8E67-A1CF-B485-AAA8-D1F26D66722D">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>EX_DIVIDEND_DATE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>EX_DIVIDEND_DATE</alias>
+<dataType>DATE</dataType>
+<headerAlias>EX_DIVIDEND_DATE</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ONE_YEAR_TARGET_PRICE" id="2BC95905-8D5C-A06F-570E-57B5C53902E1">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>ONE_YEAR_TARGET_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>ONE_YEAR_TARGET_PRICE</alias>
+<dataType>NUMBER (21, 6)</dataType>
+<headerAlias>ONE_YEAR_TARGET_PRICE</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ONE_YEAR_POTENTIAL_GAIN" id="817C8AE0-2F94-F43D-21B7-AE03286B01DE">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>ONE_YEAR_POTENTIAL_GAIN</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>ONE_YEAR_POTENTIAL_GAIN</alias>
+<dataType>NUMBER</dataType>
+<headerAlias>ONE_YEAR_POTENTIAL_GAIN</headerAlias>
+<reference>false</reference>
+</viewElement>
+<viewElement class="oracle.dbtools.crest.model.design.relational.ColumnView" name="ONE_YEAR_POTENTIAL_GAIN_PERCENTAGE" id="5DAFB5E4-374E-6054-258F-2C537F97C3CE">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>YAHOO_FINANCE_QUOTE_SUMMARY_VIEW</sourceObjSchema>
+<sourceObjName>ONE_YEAR_POTENTIAL_GAIN_PERCENTAGE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<alias>ONE_YEAR_POTENTIAL_GAIN_PERCENTAGE</alias>
+<dataType>NUMBER</dataType>
+<headerAlias>ONE_YEAR_POTENTIAL_GAIN_PERCENTAGE</headerAlias>
+<reference>false</reference>
+</viewElement>
+</viewElements>
+<usedObjects>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="72230B94-1BDE-C960-A274-F3A1DE938F3B">
+<container>true</container>
+<schema>TRADING_INVESTING</schema>
+<tableName>YAHOO_FINANCE_QUOTE_SUMMARY</tableName>
+</UsedObject>
+<UsedObject class="oracle.dbtools.crest.swingui.editor.viewbuilder.SQLNameHelper" id="AD427DFA-BF41-CC8E-BFFB-DE6C87262BE4">
+<columnName>RECORD_DATETIME</columnName>
+<schema>TRADING_INVESTING</schema>
+<tableName>YAHOO_FINANCE_QUOTE_SUMMARY</tableName>
+</UsedObject>
+</usedObjects>
+</TableView>

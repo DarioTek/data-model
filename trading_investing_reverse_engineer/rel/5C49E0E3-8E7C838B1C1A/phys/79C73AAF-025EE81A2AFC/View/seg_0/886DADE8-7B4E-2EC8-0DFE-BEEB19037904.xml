@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableViewProxyOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableViewProxyOraclev10g" name="YAHOO_FINANCE_QUOTE_SUMMARY_VIEW" directorySegmentName="seg_0" id="886DADE8-7B4E-2EC8-0DFE-BEEB19037904">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:44 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<schemaObject>01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB</schemaObject>
+</TableViewProxyOraclev10g>

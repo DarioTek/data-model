@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AB07074A-594E-AAE5-7C3E-95D46F18DD3C" schemaObject="01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB" name="LOAD_HISTORICAL_PRICES">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>TRADING_INVESTING</sourceObjSchema>
+<sourceObjName>LOAD_HISTORICAL_PRICES</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RECORD_DATE" id="0BC70DBC-C8F1-490C-9088-F7A6B82E2E2C">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>LOAD_HISTORICAL_PRICES</sourceObjSchema>
+<sourceObjName>RECORD_DATE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OPEN_PRICE" id="E2F5BFEC-ACED-26E3-7347-3DE24AA36011">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>LOAD_HISTORICAL_PRICES</sourceObjSchema>
+<sourceObjName>OPEN_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLOSE_PRICE" id="3CEB856E-EC24-274F-0AA7-1C74E03F9C0A">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>LOAD_HISTORICAL_PRICES</sourceObjSchema>
+<sourceObjName>CLOSE_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HIGH_PRICE" id="8334D96A-DA3C-F349-82D3-EBDBB5C13AF7">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>LOAD_HISTORICAL_PRICES</sourceObjSchema>
+<sourceObjName>HIGH_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOW_PRICE" id="BE3A13EC-24E3-EFF4-9459-C4E9DB23D4F3">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>LOAD_HISTORICAL_PRICES</sourceObjSchema>
+<sourceObjName>LOW_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADJUSTED_CLOSE_PRICE" id="B960D068-3673-C85B-94CC-43C150D7E758">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>LOAD_HISTORICAL_PRICES</sourceObjSchema>
+<sourceObjName>ADJUSTED_CLOSE_PRICE</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>6</dataTypeScale>
+<ownDataTypeParameters>,21,6</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VOLUME" id="70E38380-EF95-B250-7F79-D354799BFD13">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>LOAD_HISTORICAL_PRICES</sourceObjSchema>
+<sourceObjName>VOLUME</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>21</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,21,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

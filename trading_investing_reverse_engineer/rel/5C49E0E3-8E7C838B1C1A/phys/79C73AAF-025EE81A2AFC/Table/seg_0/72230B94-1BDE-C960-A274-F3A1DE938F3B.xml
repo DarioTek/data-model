@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="YAHOO_FINANCE_QUOTE_SUMMARY" directorySegmentName="seg_0" id="72230B94-1BDE-C960-A274-F3A1DE938F3B">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<schemaObject>01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>081EE4B7-0A2D-0BB1-CA81-708EA94B8D43</segment>
+<tableSpace>F784E098-0C6F-A90D-BECC-18FBEB48A909</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="AVERAGE_VOLUME" id="0202A22E-2D9E-503B-C802-9844451C0BF4">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIFTY_TWO_WEEK_RANGE_LOW_PRICE" id="12FA048D-A074-B346-4913-0C3BBD4B860D">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VOLUME" id="15015B40-3090-FA4E-4D90-2BE0A7C2BC76">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EPS_TTM" id="1A80421E-695A-6EB1-0722-C5F9A7738A65">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIVIDEND_YIELD" id="1AB40D1E-E92F-B391-EBE9-66B889FBB408">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FIFTY_TWO_WEEK_RANGE_HIGH_PRICE" id="2DEC748A-E4C3-CB9B-BF00-460D39B63838">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPENING_PRICE" id="3F93E691-A255-76F6-DFEB-02AF5EBB8CFA">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BETA" id="42E918B8-3E34-2958-C89B-3002D81F4BB4">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EARNINGS_DATE_END" id="430C0683-EB43-C2A4-499A-5EA34A2713DB">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LIVE_PRICE" id="46CA1298-989C-1549-2032-113EC0BC368B">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAYS_RANGE_HIGH_PRICE" id="6222C5BE-F73C-7099-9510-4564AA72B310">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PE_RATIO_TTM" id="7A231D17-266B-973F-1736-35777DFD8A1F">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SYMBOL" id="8B10059F-BA67-0281-0C9C-5FFF48D9BFC3">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BID_OFFER_QUANTITY" id="9149764E-5062-72B2-57C6-79F9181491A7">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ASKING_QUANTITY" id="A7F5A6E5-3D48-D98D-6CE7-F2F8F2C81141">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RECORD_DATETIME" id="AD427DFA-BF41-CC8E-BFFB-DE6C87262BE4">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MARKET_CAPITALIZATION" id="B97E06C1-3D10-C896-D1AC-923FB713A321">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PREVIOUS_CLOSING_PRICE" id="BCCA6306-74C1-B02B-A4EB-B0FEAE55A848">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DIVIDEND" id="C38E266F-C59E-38FC-E152-43F96AA1037A">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BID_OFFER_PRICE" id="C3CA93D7-7A0B-BF44-EBE4-D64F8025DA21">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EARNINGS_DATE" id="DA7FEFA0-A9ED-7E1F-26FD-D73B3B2F3D23">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ASKING_PRICE" id="E514E5A0-65E3-BC74-07FC-B17E330931DF">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ONE_YEAR_TARGET_PRICE" id="E593DC73-B863-661B-B855-C6BEB9BAA56E">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EX_DIVIDEND_DATE" id="FE1BAB0B-E562-482D-2B9A-A7D9B96CBAC1">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DAYS_RANGE_LOW_PRICE" id="FEA04523-6503-CEFF-B98F-EDDD633E44FC">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="YAHOO_FINANCE_QUOTE_SUMMARY_PK" id="E558B72F-16CF-F4A0-6A4D-F2749DD5E864">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:48 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<schemaObject>01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB</schemaObject>
+<segment>5EE30FD3-8847-74B2-3C94-17A1A5A3072D</segment>
+<tableSpace>F784E098-0C6F-A90D-BECC-18FBEB48A909</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="YAHOO_FINANCE_QUOTE_SUMMARY_PK" id="6BA0C97B-F9CC-670A-6EE6-891F2A6C35A6">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:49 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<segment>5EE30FD3-8847-74B2-3C94-17A1A5A3072D</segment>
+<tableSpace>F784E098-0C6F-A90D-BECC-18FBEB48A909</tableSpace>
+<existingIndex>E558B72F-16CF-F4A0-6A4D-F2749DD5E864</existingIndex>
+<indexSegment>5EE30FD3-8847-74B2-3C94-17A1A5A3072D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

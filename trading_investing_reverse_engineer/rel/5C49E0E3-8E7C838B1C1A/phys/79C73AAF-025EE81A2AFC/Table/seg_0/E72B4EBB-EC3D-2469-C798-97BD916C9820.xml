@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="STOCK_MASTER_LIST" directorySegmentName="seg_0" id="E72B4EBB-EC3D-2469-C798-97BD916C9820">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<schemaObject>01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>15747617-9DB6-FC65-404D-8D14AE117242</segment>
+<tableSpace>F784E098-0C6F-A90D-BECC-18FBEB48A909</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="SECTOR" id="05BD8486-8EB5-7EE9-02BC-16F0832C8B42">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SECURITY_NAME" id="9C3BCBBD-F915-4FBB-FA2E-8C1E21230E2D">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INDUSTRY" id="A124EF36-379E-267F-9F29-80E98F4D4243">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SYMBOL" id="C8DEF22F-A3FE-0913-5726-2A4646695EED">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="STOCK_MASTER_LIST_PK" id="BBBF0082-A2D3-6E4F-01F8-6842AE6A7CE5">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:48 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<schemaObject>01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB</schemaObject>
+<segment>1CDCEA5D-9905-727B-A8C5-433FFD12BEE9</segment>
+<tableSpace>F784E098-0C6F-A90D-BECC-18FBEB48A909</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="STOCK_MASTER_LIST_PK" id="61BF3912-DBCA-39DE-C6A9-0B62FA977955">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:49 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<segment>1CDCEA5D-9905-727B-A8C5-433FFD12BEE9</segment>
+<tableSpace>F784E098-0C6F-A90D-BECC-18FBEB48A909</tableSpace>
+<existingIndex>BBBF0082-A2D3-6E4F-01F8-6842AE6A7CE5</existingIndex>
+<indexSegment>1CDCEA5D-9905-727B-A8C5-433FFD12BEE9</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

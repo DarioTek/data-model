@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="HISTORICAL_PRICES" directorySegmentName="seg_0" id="E8465A06-4F0B-DABC-1A20-FB0B17F49866">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<schemaObject>01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>081EE4B7-0A2D-0BB1-CA81-708EA94B8D43</segment>
+<tableSpace>F784E098-0C6F-A90D-BECC-18FBEB48A909</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ADJUSTED_CLOSE_PRICE" id="00DE4D8A-EF19-F091-874B-69829750269D">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RECORD_DATE" id="179F339A-1DEB-FD97-485A-811AE4ADC296">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="LOW_PRICE" id="2122C2BC-3C54-B4C1-9B34-0941DCED9F91">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIGH_PRICE" id="3F044A36-1B3F-D6BA-2A6C-1E24C882D3B1">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLOSE_PRICE" id="58D3B393-7D65-9C20-DE04-DC422D7C9B52">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SYMBOL" id="7B07D12A-18DF-8324-66E9-8F216692FBA4">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VOLUME" id="9788EA73-0294-A2DA-00FE-82F422853374">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="OPEN_PRICE" id="A0F4D685-5C38-DEF9-91B8-60F43A38AF9F">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="HISTORICAL_PRICES_PK" id="F7795BFC-BFD4-9076-0F82-EC2A6905D687">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:48 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<schemaObject>01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB</schemaObject>
+<segment>5EE30FD3-8847-74B2-3C94-17A1A5A3072D</segment>
+<tableSpace>F784E098-0C6F-A90D-BECC-18FBEB48A909</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="HISTORICAL_PRICES_PK" id="C9047D0D-4698-7E30-803E-357A95CD9692">
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:49 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<segment>5EE30FD3-8847-74B2-3C94-17A1A5A3072D</segment>
+<tableSpace>F784E098-0C6F-A90D-BECC-18FBEB48A909</tableSpace>
+<existingIndex>F7795BFC-BFD4-9076-0F82-EC2A6905D687</existingIndex>
+<indexSegment>5EE30FD3-8847-74B2-3C94-17A1A5A3072D</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

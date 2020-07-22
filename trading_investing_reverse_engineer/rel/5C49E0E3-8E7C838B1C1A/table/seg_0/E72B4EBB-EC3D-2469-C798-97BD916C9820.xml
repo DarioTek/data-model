@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E72B4EBB-EC3D-2469-C798-97BD916C9820" schemaObject="01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB" name="STOCK_MASTER_LIST">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>TRADING_INVESTING</sourceObjSchema>
+<sourceObjName>STOCK_MASTER_LIST</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SYMBOL" id="C8DEF22F-A3FE-0913-5726-2A4646695EED">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>STOCK_MASTER_LIST</sourceObjSchema>
+<sourceObjName>SYMBOL</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECURITY_NAME" id="9C3BCBBD-F915-4FBB-FA2E-8C1E21230E2D">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>STOCK_MASTER_LIST</sourceObjSchema>
+<sourceObjName>SECURITY_NAME</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SECTOR" id="05BD8486-8EB5-7EE9-02BC-16F0832C8B42">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>STOCK_MASTER_LIST</sourceObjSchema>
+<sourceObjName>SECTOR</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="INDUSTRY" id="A124EF36-379E-267F-9F29-80E98F4D4243">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>STOCK_MASTER_LIST</sourceObjSchema>
+<sourceObjName>INDUSTRY</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:47 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61BF3912-DBCA-39DE-C6A9-0B62FA977955" name="STOCK_MASTER_LIST_PK">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>TRADING_INVESTING</sourceObjSchema>
+<sourceObjName>STOCK_MASTER_LIST_PK</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:49 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8DEF22F-A3FE-0913-5726-2A4646695EED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBBF0082-A2D3-6E4F-01F8-6842AE6A7CE5" schemaObject="01AC534B-FE1A-94AB-3B8A-C5F7E8BC47DB" name="STOCK_MASTER_LIST_PK">
+<sourceConnName>trading_investing</sourceConnName>
+<sourceObjSchema>TRADING_INVESTING</sourceObjSchema>
+<sourceObjName>STOCK_MASTER_LIST_PK</sourceObjName>
+<createdBy>dmont</createdBy>
+<createdTime>2020-07-22 14:47:48 UTC</createdTime>
+<ownerDesignName>trading_investing_reverse_engineer</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8DEF22F-A3FE-0913-5726-2A4646695EED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

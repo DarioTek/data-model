@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4356292-68E9-8AB3-C9E5-552B4944867B" name="Account">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 00:53:21 UTC</createdTime>
+<ownerDesignName>finance_project</ownerDesignName>
+<engineerTo>
+<item key="CE8DE560-32A7-392A-EB9F-7DFE88340F16" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Account Number" id="E9051013-CCFE-9691-9D95-7C67D7927830">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 00:53:50 UTC</createdTime>
+<ownerDesignName>finance_project</ownerDesignName>
+<engineerTo>
+<item key="CE8DE560-32A7-392A-EB9F-7DFE88340F16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hash Number" id="C76183CE-3568-0F17-B87A-03F465E909F8">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 00:54:24 UTC</createdTime>
+<ownerDesignName>finance_project</ownerDesignName>
+<engineerTo>
+<item key="CE8DE560-32A7-392A-EB9F-7DFE88340F16" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="roundTrips" id="7EDE8D60-2F9C-CEED-D533-7675017FC33E">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 00:55:32 UTC</createdTime>
+<ownerDesignName>finance_project</ownerDesignName>
+<engineerTo>
+<item key="CE8DE560-32A7-392A-EB9F-7DFE88340F16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0FC40587-7E92-D7A8-A5D8-D9F77011E6A8" name="Key_1">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 00:55:05 UTC</createdTime>
+<ownerDesignName>finance_project</ownerDesignName>
+<engineerTo>
+<item key="CE8DE560-32A7-392A-EB9F-7DFE88340F16" value="true"/>
+</engineerTo>
+<newElementsIDs>E9051013-CCFE-9691-9D95-7C67D7927830</newElementsIDs>
+<usedAttributes>
+<attributeRef>E9051013-CCFE-9691-9D95-7C67D7927830</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

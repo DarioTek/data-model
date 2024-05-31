@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66B396A6-D87F-A9C9-495F-C89DE20A0C13" name="ACCOUNT">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 00:59:12 UTC</createdTime>
+<generatorID>F4356292-68E9-8AB3-C9E5-552B4944867B</generatorID>
+<ownerDesignName>finance_project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ACCOUNT_NUMBER" id="005915B1-CEBB-4747-C5D4-E63D707D6222">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 00:59:12 UTC</createdTime>
+<generatorID>E9051013-CCFE-9691-9D95-7C67D7927830</generatorID>
+<ownerDesignName>finance_project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HASH_NUMBER" id="EDC25463-2F12-F544-8083-CC1C21D9AFC9">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 00:59:12 UTC</createdTime>
+<generatorID>C76183CE-3568-0F17-B87A-03F465E909F8</generatorID>
+<ownerDesignName>finance_project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ROUND_TRIPS" id="6DCC52CF-7D46-F693-BE12-BE6B198B8223">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 00:59:12 UTC</createdTime>
+<generatorID>7EDE8D60-2F9C-CEED-D533-7675017FC33E</generatorID>
+<ownerDesignName>finance_project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_DAY_TRADER" id="03D132B5-7AFA-3070-68FA-6E85755F3B96">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 01:04:34 UTC</createdTime>
+<generatorID>85D5D975-1472-9D74-266D-CC9DE99A29B4</generatorID>
+<ownerDesignName>finance_project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IS_CLOSING_ONLY_RESTRICTED" id="FC549212-D2E4-5AD6-8F56-D65926A97E0C">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 01:12:54 UTC</createdTime>
+<generatorID>3086ED28-4312-EB6E-2390-3E3D98066054</generatorID>
+<ownerDesignName>finance_project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PFCB_FLAG" id="5C9C3E99-E971-7CFA-9843-B67BC3F6606C">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 01:14:44 UTC</createdTime>
+<generatorID>D47B2A3C-1C1D-4940-5564-B06BAEFFD506</generatorID>
+<ownerDesignName>finance_project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C3CAC34-A7D6-F510-8EB1-2702E954A1F7" name="ACCOUNT_PK">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 01:01:44 UTC</createdTime>
+<ownerDesignName>finance_project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="005915B1-CEBB-4747-C5D4-E63D707D6222"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

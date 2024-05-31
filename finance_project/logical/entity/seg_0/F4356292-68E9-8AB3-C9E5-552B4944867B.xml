@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4356292-68E9-8AB3-C9E5-552B4944867B" name="Account">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4356292-68E9-8AB3-C9E5-552B4944867B" name="ACCOUNT">
 <createdBy>dariomontecastro</createdBy>
 <createdTime>2024-05-31 00:53:21 UTC</createdTime>
 <ownerDesignName>finance_project</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="Account Number" id="E9051013-CCFE-9691-9D95-7C67D7927830">
+<Attribute name="ACCOUNT_NUMBER" id="E9051013-CCFE-9691-9D95-7C67D7927830">
 <createdBy>dariomontecastro</createdBy>
 <createdTime>2024-05-31 00:53:50 UTC</createdTime>
 <ownerDesignName>finance_project</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypeSize>100</dataTypeSize>
 <ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="Hash Number" id="C76183CE-3568-0F17-B87A-03F465E909F8">
+<Attribute name="HASH_NUMBER" id="C76183CE-3568-0F17-B87A-03F465E909F8">
 <createdBy>dariomontecastro</createdBy>
 <createdTime>2024-05-31 00:54:24 UTC</createdTime>
 <ownerDesignName>finance_project</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypeSize>250</dataTypeSize>
 <ownDataTypeParameters>250,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="roundTrips" id="7EDE8D60-2F9C-CEED-D533-7675017FC33E">
+<Attribute name="ROUND_TRIPS" id="7EDE8D60-2F9C-CEED-D533-7675017FC33E">
 <createdBy>dariomontecastro</createdBy>
 <createdTime>2024-05-31 00:55:32 UTC</createdTime>
 <ownerDesignName>finance_project</ownerDesignName>
@@ -54,14 +54,57 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="IS_DAY_TRADER" id="85D5D975-1472-9D74-266D-CC9DE99A29B4">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 01:03:36 UTC</createdTime>
+<ownerDesignName>finance_project</ownerDesignName>
+<engineerTo>
+<item key="CE8DE560-32A7-392A-EB9F-7DFE88340F16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IS_CLOSING_ONLY_RESTRICTED" id="3086ED28-4312-EB6E-2390-3E3D98066054">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 01:12:02 UTC</createdTime>
+<ownerDesignName>finance_project</ownerDesignName>
+<engineerTo>
+<item key="CE8DE560-32A7-392A-EB9F-7DFE88340F16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PFCB_FLAG" id="D47B2A3C-1C1D-4940-5564-B06BAEFFD506">
+<createdBy>dariomontecastro</createdBy>
+<createdTime>2024-05-31 01:13:12 UTC</createdTime>
+<ownerDesignName>finance_project</ownerDesignName>
+<engineerTo>
+<item key="CE8DE560-32A7-392A-EB9F-7DFE88340F16" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0FC40587-7E92-D7A8-A5D8-D9F77011E6A8" name="Key_1">
 <createdBy>dariomontecastro</createdBy>
 <createdTime>2024-05-31 00:55:05 UTC</createdTime>
 <ownerDesignName>finance_project</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="CE8DE560-32A7-392A-EB9F-7DFE88340F16" value="true"/>
+<item key="CE8DE560-32A7-392A-EB9F-7DFE88340F16" value="false"/>
 </engineerTo>
 <newElementsIDs>E9051013-CCFE-9691-9D95-7C67D7927830</newElementsIDs>
 <usedAttributes>

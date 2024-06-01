@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4356292-68E9-8AB3-C9E5-552B4944867B" name="ACCOUNT">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4356292-68E9-8AB3-C9E5-552B4944867B" name="ACCOUNTS">
 <createdBy>dariomontecastro</createdBy>
 <createdTime>2024-05-31 00:53:21 UTC</createdTime>
 <ownerDesignName>finance_project</ownerDesignName>
